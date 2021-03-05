@@ -1,5 +1,7 @@
 def sort(nums):
 
+#numbers changed
+
     for i in range(5):
         minpos = i
         for j in range(i,6):
@@ -10,6 +12,6 @@ def sort(nums):
         nums[i] = nums[minpos]
         nums[minpos] = temp
 
-nums = [5,3,8,6,7,2]
+nums = [2,4,1,3,6,5]
 sort(nums)
 print(nums)
